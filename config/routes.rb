@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  root 'books#index'  # Change 'books#index' if your homepage should be different
-  resources :books
+  root 'books#index' 
 end
 
 
