@@ -69,7 +69,7 @@ group :development, :test do
   gem "sqlite3", ">= 2.1"
 end
 
-group :staging, :production do
+group :staging do
   gem "pg"
 end
 
