@@ -65,6 +65,12 @@ end
 
 gem "rspec-rails", "~> 7.1"
 
-gem "sqlite3", ">= 2.1"
+group :development, :test do
+  gem "sqlite3", ">= 2.1"
+end
+
+group :staging, :production do
+  gem "pg"
+end
 
 
