@@ -15,7 +15,7 @@ test:
 # ✅ Add this to make staging work like test
 staging:
   <<: *default
-  database: storage/staging.sqlite3
+  database: storage/test.sqlite3
 
 production:
   primary:
